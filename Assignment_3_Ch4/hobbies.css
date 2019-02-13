@@ -1,0 +1,19 @@
+h1 { background-image: url(ch4Pics/NIU_logo.png);
+ background-repeat: no-repeat;
+ height: 150px; width: 675px; font-size: 2.3em;
+ padding-left: 250px; padding-top: 10px;
+ border: 1px solid #000033;
+ border-radius: 15px;
+	 }
+h2 { background-color:Black;
+	text-align: center;
+	width: 925px;
+    border-radius: 5px;
+    }
+img { border: 3px solid #000033;
+	  border-radius: 15px; }
+a	{ background-color:Black;
+	color: white;
+	width: 925px;
+    border-radius: 5px;
+    text-decoration: none;}
