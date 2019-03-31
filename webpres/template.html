@@ -43,8 +43,8 @@ body {
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
-  display: block;
+ float: left;
+display: block;
   color: black;
   text-align: center ;
   padding: 14px 16px;
@@ -173,11 +173,16 @@ margin-right: 10px;
 
 
 @media only screen and (max-width: 1080px) {
-  .poopycolumn, .middlecolumn, .rightcolumn {   
+  .poopycolumn, .middlecolumn, .rightcolumn {  font-size:30px; 
     width: 100%;
     padding: 0;
   }
-  .topnav a { font-size: 120px; text-align: center;}
+
+  .topnav a { font-size: 120px; 
+		text-align: center;
+		border-bottom: 3px ridge black;
+
+}
 }
 
 
@@ -198,11 +203,11 @@ margin-right: 10px;
 
 <center>
 <div class="topnav a">
-  <a href="#">Home</a>
+  <a href="#">Home</a> 
   <a href="projects.html">My Projects</a>
   <a href="#">My Resume</a>
   <a href="#">Contact Info</a>
-  <a href="#">My Schedule</a>
+  <a href="#">My Schedule</a> 
   
 </div>
 </center>
