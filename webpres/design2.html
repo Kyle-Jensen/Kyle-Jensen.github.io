@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 1px;
+  background: black;
+	background-image: url(grayback.jpg);
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: silver;
+   border: 3px solid gray;
+	  border-radius: 10px;
+      background-image: url(horizontal.png);
+      color: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.column {
+  float: left;
+  
+
+}
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}  
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+    border: 3px solid gray;
+	border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+      background-image: linear-gradient(to bottom, white, Gray);
+    
+}
+
+/* Style the topnav links */
+.topnav a {
+  color: black;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 30px;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a:visited {
+  background-color: #ddd;
+  color: white;
+}
+.middlenav a {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:  underline;
+  font-size: 30px;
+}
+
+/* Change color on hover */
+.middlenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.middlenav a:visited {
+  background-color: #ddd;
+  color: white;
+}
+
+  
+
+}
+
+/* Create two unequal columns that floats next to each other */
+/* middle column */
+.middlecolumn {   
+  float: left;
+  width: 75;
+
+
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 24.3%;
+  margin-top: 10px;
+ 
+  
+}
+
+.img {
+	max-width: 100%;
+    max-height: 100%;
+}
+.test { 
+	width: 100%;
+	height: auto;
+  
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 5px;
+  border: 3px solid gray;
+	border-radius: 10px;
+      margin-bottom: 10px;
+    
+ background-image: linear-gradient(to bottom, white, Gray);
+
+ 
+}
+
+.card2 {  background-color: white;
+  padding: 5px;
+ border: 3px solid gray;
+	border-radius: 10px;
+	 margin-bottom: 10px; 
+ background-image: linear-gradient(to bottom, white, Gray);
+margin-right: 10px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  font-size:10px;
+  text-align: center;
+  background: silver;
+  margin-top: 5px;
+   border: 3px solid gray;
+	border-radius: 10px;
+    background-image: linear-gradient(to bottom, white, Gray);
+    
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+
+</div>
+<center>
+<div class="topnav a">
+  <a href="#">Move to Project 1</a> 
+  <a href="#">Move to Project 2</a>
+  <a href="#">Move to Comment Section</a>
+
+</div>
+</center>
+<div class="row">
+    <div class="column left">
+    <div class="card2">
+      
+     
+      
+      <div class="middlenav a">
+  <a href="#">Home</a> 
+  <a href="#">My Resume</a>
+  <a href="#">Contact Info</a>
+  <a href="#">My Schedule</a>
+</div>
+    </div>
+    <div class="card2">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card2">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="column right">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+ 
+    </div>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
