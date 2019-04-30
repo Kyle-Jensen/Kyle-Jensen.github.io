@@ -93,7 +93,7 @@ a {
     position: absolute;
     width: 40px;
     height: 2px;
-    background: #ee4266; }
+    background: Black; }
   .site-section-heading.text-center:before {
     content: "";
     left: 50%;
@@ -104,7 +104,7 @@ a {
     position: absolute;
     width: 40px;
     height: 2px;
-    background: #ee4266; }
+    background: Black; }
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
@@ -523,7 +523,7 @@ a {
       display: none; }
   .site-blocks-1 .icon span {
     position: relative;
-    color: #ee4266;
+    color: Black;
     top: -10px;
     font-size: 50px;
     display: inline-block; }
